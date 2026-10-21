@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8fafc;
+    color: #374151;
+    line-height: 1.7;
+}
+
+
+/* VIRŠUS */
+
+header {
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    margin: 0 0 25px;
+    font-size: 42px;
+}
+
+
+/* NAVIGACIJA */
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #2563eb;
+}
+
+
+/* SEKCIJOS */
+
+section {
+    max-width: 1000px;
+    margin: 35px auto;
+    padding: 35px;
+
+    background-color: white;
+
+    border-radius: 15px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+}
+
+section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+}
+
+
+/* ANTRAŠTĖS */
+
+section h2 {
+    color: #2563eb;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+
+/* TEKSTAS */
+
+section p {
+    font-size: 17px;
+    color: #4b5563;
+    text-align: justify;
+}
+
+
+/* SKIRTINGOS MATEMATIKOS SRITYS */
+
+#algebra {
+    border-left: 6px solid #3b82f6;
+}
+
+#geometrija {
+    border-left: 6px solid #8b5cf6;
+}
+
+#analize {
+    border-left: 6px solid #06b6d4;
+}
+
+#trigonometrija {
+    border-left: 6px solid #f59e0b;
+}
+
+#statistika {
+    border-left: 6px solid #10b981;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+footer hr {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    max-width: 1000px;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+
+/* TELEFONAMS */
+
+@media (max-width: 700px) {
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    section {
+        margin: 20px 15px;
+        padding: 25px 20px;
+    }
+
+    section h2 {
+        font-size: 25px;
+    }
+
+    section p {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    nav a {
+        display: block;
+        max-width: 250px;
+        margin: 8px auto;
+    }
+}

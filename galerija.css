@@ -1,0 +1,136 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8fafc;
+    color: #374151;
+    line-height: 1.7;
+}
+
+/* Puslapio viršus */
+header {
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    margin: 0 0 20px;
+    font-size: 42px;
+}
+
+/* Pagrindinio puslapio nuoroda */
+header > a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 22px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+header > a:hover {
+    background-color: white;
+    color: #2563eb;
+}
+
+/* Galerijos blokas */
+section {
+    max-width: 1100px;
+    margin: 35px auto;
+    padding: 35px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Galerijos pavadinimas */
+section h3 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #2563eb;
+    font-size: 28px;
+    text-align: center;
+}
+
+/* Paveikslėlių išdėstymas */
+.galerija {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+/* Paveikslėliai */
+.galerija img {
+    width: 300px;
+    height: 220px;
+    object-fit: contain;
+    background-color: #f8fafc;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.galerija img:hover {
+    transform: scale(1.04);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Puslapio apačia */
+footer {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+footer hr {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    max-width: 1000px;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+/* Pritaikymas telefonams */
+@media (max-width: 700px) {
+    header h1 {
+        font-size: 32px;
+    }
+
+    section {
+        margin: 20px 15px;
+        padding: 22px 15px;
+    }
+
+    section h3 {
+        font-size: 24px;
+    }
+
+    .galerija {
+        gap: 15px;
+    }
+
+    .galerija img {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        min-height: 180px;
+    }
+}
