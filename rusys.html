@@ -9,15 +9,27 @@
   </head>
 
   <body>
-    <header>
-      <h1>Matematikos rūšys</h1>
+    <!-- Navigacijos juosta -->
+    <header class="virsus">
+      <a class="logo" href="praktinisd.html">MATEMATIKA</a>
+
       <nav>
         <a href="praktinisd.html">Pagrindinis</a>
+        <a href="video.html">Video pamokos</a>
+        <a href="galerija.html">Formulių Galerija</a>
       </nav>
+    </header>
 
-      <main>
+    <!-- Pagrindinis puslapio vaizdas -->
+    <div class="hero"></div>
+
+    <main class="rusys-turinys">
+      <div class="rusys-sarasas">
         <section id="algebra">
           <h2>Algebra</h2>
+
+          <img src="images/algebra.jpg" alt="" class="rusys-nuotrauka" />
+
           <p>
             Algebra yra viena svarbiausių ir plačiausiai naudojamų matematikos
             sričių, kurioje nagrinėjami skaičiai, raidės, simboliai ir jų
@@ -44,6 +56,9 @@
 
         <section id="geometrija">
           <h2>Geometrija</h2>
+
+          <img src="images/geometry.jpg" alt="" class="rusys-nuotrauka" />
+
           <p>
             Geometrija yra matematikos sritis, nagrinėjanti figūras, jų formas,
             dydžius, padėtį ir savybes. Ji padeda geriau suprasti erdvę ir
@@ -70,6 +85,9 @@
 
         <section id="analize">
           <h2>Matematinė analizė</h2>
+
+          <img src="images/calculus.jpg" alt="" class="rusys-nuotrauka" />
+
           <p>
             Matematinė analizė yra matematikos sritis, nagrinėjanti funkcijas,
             jų kitimą ir įvairius nuolat vykstančius procesus. Ji padeda
@@ -95,6 +113,9 @@
 
         <section id="trigonometrija">
           <h2>Trigonometrija</h2>
+
+          <img src="images/trigonometry.jpg" alt="" class="rusys-nuotrauka" />
+
           <p>
             Trigonometrija yra matematikos sritis, nagrinėjanti ryšius tarp
             trikampių kampų ir kraštinių. Ji ypač svarbi sprendžiant uždavinius,
@@ -119,36 +140,146 @@
         </section>
 
         <section id="statistika">
-          <h2>Statistika</h2>
+          <h2>Kombinatorika ir tikimybės</h2>
+
+          <img src="images/statistics.jpg" alt="" class="rusys-nuotrauka" />
+
           <p>
-            Statistika yra matematikos sritis, susijusi su duomenų rinkimu,
-            tvarkymu, analizavimu ir interpretavimu. Šiais laikais žmonės
-            susiduria su labai dideliu informacijos kiekiu, todėl svarbu mokėti
-            duomenis ne tik surinkti, bet ir suprasti. Statistika padeda
-            pastebėti svarbias tendencijas, palyginti skirtingus duomenis ir
-            padaryti pagrįstas išvadas. Statistikoje naudojami įvairūs
-            rodikliai, kurie padeda apibūdinti duomenų rinkinį. Vienas
-            dažniausiai naudojamų rodiklių yra vidurkis, kuris parodo apytikslę
-            bendrą reikšmę. Taip pat naudojama mediana, moda, procentai ir kiti
-            statistiniai rodikliai. Duomenys dažnai pateikiami lentelėse,
-            stulpelinėse diagramose, skritulinėse diagramose ir grafikuose, nes
-            taip informaciją galima lengviau suprasti ir palyginti. Statistika
-            yra svarbi daugelyje gyvenimo sričių. Ji naudojama moksliniuose
-            tyrimuose, ekonomikoje, versle, sporte, medicinoje ir
-            technologijose. Pavyzdžiui, statistiniai duomenys gali padėti
-            įmonėms suprasti klientų poreikius, sporto komandoms įvertinti
-            žaidėjų rezultatus, o mokslininkams atlikti tyrimus ir analizuoti jų
-            rezultatus. Statistika padeda priimti sprendimus remiantis
-            duomenimis, o ne vien asmenine nuomone, todėl ji yra labai svarbi
-            šiuolaikiniame pasaulyje.
+            Kombinatorika ir tikimybių teorija yra glaudžiai susijusios
+            matematikos šakos, nagrinėjančios įvairių variantų sudarymą ir
+            atsitiktinių įvykių dėsningumus. Kombinatorika padeda atsakyti į
+            klausimą „kiek iš viso yra galimų variantų ar kombinacijų?“, o
+            tikimybių teorija įvertina, „kokia yra tikimybė, kad įvyks konkretus
+            įvykis?“. Praktikoje viskas prasideda nuo dviejų pagrindinių
+            kombinatorikos taisyklių: sudėties (kai renkamės elementą A arba B,
+            variantai sudedami) ir daugybos (kai renkamės elementą A ir B,
+            variantai dauginami). Norint suskaičiuoti sudėtingesnius rinkinius,
+            naudojamos trys pagrindinės sąvokos: kėliniai (kai visi turimi
+            elementai tiesiog sukeičiami vietomis), gretiniai (kai iš didesnės
+            grupės renkama dalis elementų ir jų tvarka yra svarbi) bei deriniai
+            (kai iš grupės renkama dalis elementų, tačiau jų tvarka visiškai
+            nesvarbi, pavyzdžiui, traukiant loterijos bilietus). Apskaičiavus
+            galimus variantus, galima pereiti prie tikimybių. Klasikinė įvykio
+            tikimybė skaičiuojama palankių baigčių skaičių padalijus iš visų
+            įmanomų baigčių skaičiaus. Tikimybės reikšmė visada yra tarp 0
+            (neįmanomas įvykis) ir 1 (būtinas įvykis), arba išreiškiama
+            procentais nuo 0% iki 100%. Jei nagrinėjami keli nepriklausomi
+            įvykiai, jų bendra tikimybė skaičiuojama dauginant atskiras
+            tikimybes, o jei įvykiai yra nesutaikomi (negali įvykti kartu) – jų
+            tikimybės sudedamos. Šių dviejų disciplinų taikymas apima itin
+            plačias sritis: nuo azartinių lošimų ir kompiuterinių algoritmų iki
+            duomenų mokslo, statistikos bei rizikos vertinimo draudimo ar
+            finansų rinkose.
           </p>
         </section>
-      </main>
-    </header>
+      </div>
+
+      <aside class="rusys-aside">
+        <div class="aside-etikete">MATEMATIKOS PASAULIS</div>
+
+        <h2>Žinios prasideda nuo smalsumo.</h2>
+
+        <p>
+          Matematika padeda suprasti mus supantį pasaulį, atrasti dėsningumus ir
+          spręsti įvairias problemas.
+        </p>
+
+        <div class="aside-skiltis">
+          <h3>Kaip mokytis efektyviau?</h3>
+          <ul>
+            <li>Suprask taisykles, ne tik išmok jas atmintinai.</li>
+            <li>Spręsk uždavinius savarankiškai.</li>
+            <li>Grįžk prie temų, kurios kelia sunkumų.</li>
+          </ul>
+        </div>
+
+        <div class="aside-nuorodos">
+          <h3>Tęsk mokymąsi</h3>
+          <a href="video.html">Video pamokos <span>↗</span></a>
+        </div>
+
+        <p class="aside-pabaiga">TIKSLUMAS · LOGIKA · ATRADIMAI</p>
+      </aside>
+    </main>
     <!-- Puslapio apačia -->
-    <footer>
-      <hr />
-      <p>&copy; 2026 Matematika.</p>
+    <footer class="puslapio-apačia">
+      <div class="footer-turinys">
+        <!-- Naujienlaiškis -->
+        <div class="footer-naujienlaiskis">
+          <a href="praktinisd.html" class="footer-logo">MATEMATIKA</a>
+
+          <p>
+            Sužinok daugiau apie matematiką ir gauk naudingų mokymosi patarimų!
+          </p>
+
+          <form class="footer-forma">
+            <input
+              type="email"
+              placeholder="El. paštas"
+              aria-label="El. paštas"
+              required
+            />
+            <button type="submit" aria-label="Prenumeruoti">&gt;</button>
+          </form>
+        </div>
+
+        <!-- Nuorodos -->
+        <div class="footer-nuorodos">
+          <h3>Informacija</h3>
+          <a href="praktinisd.html">Pagrindinis</a>
+          <a href="rusys.html">Matematikos rūšys</a>
+          <a href="galerija.html">Formulių Galerija</a>
+          <a href="video.html">Video pamokos</a>
+        </div>
+
+        <div class="footer-apie">
+          <h3>Kontaktai</h3>
+
+          <p>
+            El. paštas:
+            <a href="mailto:matematika@gmail.com">matematika@gmail.com</a>
+          </p>
+
+          <p>
+            Telefonas: <br />
+            +370 612 56 789
+          </p>
+        </div>
+      </div>
+
+      <!-- Apatinė eilutė -->
+      <div class="footer-apatine">
+        <div class="footer-social">
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+          >
+            <img src="images/facebook.png" alt="" />
+          </a>
+
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            <img src="images/instagram.png" alt="" />
+          </a>
+
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="YouTube"
+          >
+            <img src="images/youtube.png" alt="" />
+          </a>
+        </div>
+
+        <p>&copy; 2026 Matematika. Visos teisės saugomos.</p>
+      </div>
     </footer>
   </body>
 </html>
